@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.logo-set {
+  height: 10vh;
+  width: 25%;
+}
+.header-con {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-right-con {
+  display: flex;
+  align-items: space-evenly;
+}
+.header-label {
+  color: #64748b;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.logout-but {
+  margin: 18px;
+  background-color: #0967d2;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border-width: 0px;
+}

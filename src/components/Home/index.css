@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+@media (min-width: 768px) {
+  .head {
+    color: #1e293b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .left-con {
+    padding: 20px;
+    width: 60%;
+    justify-content: center;
+  }
+  .text {
+    color: #64748b;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+    margin-top: 20px;
+  }
+  .home-con {
+    display: flex;
+    padding: 50px;
+    height: 80vh;
+  }
+  .img-set {
+    height: 70vh;
+    width: 90%;
+  }
+}
+/* Write your CSS code here */
+@media (max-width: 768px) {
+  .head {
+    color: #1e293b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .left-con {
+    padding: 20px;
+    width: 60%;
+    justify-content: center;
+  }
+  .text {
+    color: #64748b;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+  }
+  .home-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-set {
+    height: 45vh;
+    width: 70%;
+  }
+}
